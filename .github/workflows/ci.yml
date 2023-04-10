@@ -20,5 +20,5 @@ jobs:
         run: yarn build:lib
       - name: Compile Styles
         run: yarn build:styles
-      - name: Storybook build
-        run: yarn storybook-to-ghpages --dry-run --ci
+      # - name: Storybook build
+      #   run: yarn storybook-to-ghpages --dry-run --ci
