@@ -1,5 +1,5 @@
 {
-  "name": "nhsuk-react-components-extensions",
+  "name": "@the-curve-consulting/nhsuk-react-components-extensions",
   "version": "1.5.4",
   "author": {
     "email": "thomas.judd-cooper1@nhs.net",
@@ -46,7 +46,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "jest": "^24.9.0",
-    "nhsuk-frontend": "^3.0.2",
+    "nhsuk-frontend": "5.2.1",
     "nhsuk-react-components": "^1.2.0",
     "node-sass": "^8.0.0",
     "node-sass-tilde-importer": "^1.0.2",
@@ -94,5 +94,8 @@
   ],
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/the-curve-consulting"
+  }
 }
